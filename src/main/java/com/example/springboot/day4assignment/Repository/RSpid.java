@@ -9,7 +9,5 @@ import java.util.List;
 
 @Repository
 public interface RSpid extends CrudRepository<Spid, Long> {
-    //List<Spid> findSpidById(long id);
-
     List<Spid> findSpidById(User user);
 }

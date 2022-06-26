@@ -45,6 +45,10 @@ public class Spid extends Base{
         return user;
     }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
     public void setStatus(Status status) {
         this.status = status;
     }
